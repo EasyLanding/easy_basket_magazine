@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intian-scale=1.0">
+    <title>Basket</title>
+    <style>
+        .goods {
+            display: flex;
+        }
+
+        img {
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Корзина Интернет-Магазина</h1>
+        <div class="goods">
+            <div class="good">
+                <img src="EASY LANDING -3.jpg"><br>
+                <span class="good_info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><br>
+                <span class="good_price">1000</span><br>
+                <button class="good_button">Добавить</button><br>
+                <button class="delete_button">Убрать</button><br>
+            </div>
+            <div class="good">
+                <img src="EASY LANDING -4.jpg"><br>
+                <span class="good_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span><br>
+                <span class="good_price">200</span><br>
+                <button class="good_button">Добавить</button><br>
+                <button class="delete_button">Убрать</button><br>
+            </div>
+            <div class="good">
+                <img src="EASY LANDING -8.jpg"><br>
+                <span class="good_info">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span><br>
+                <span class="good_price">400</span><br>
+                <button class="good_button">Добавить</button><br>
+                <button class="delete_button">Убрать</button><br>
+            </div>
+        </div>
+        <div id="basket">
+            <div class="basket_info"></div>
+            <div class="basket_sum">
+                <p class="total_sum">Общая цена:</p><br>
+                <button id="clear">Очистить корзину</button>
+            </div>
+            <div id="total_basket_clear">
+                <div id="recale"></div>
+            </div>
+        </div>
+    </div>
+    <script async src="magazine.js"></script>
+</body>
+
+</html>
